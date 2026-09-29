@@ -1,0 +1,64 @@
+SAMPLE CONSOLE OUTPUT
+=====================
+
+ID: 1 | Name: Ananya Rao | Phone: 9876543210 | Role: Pharmacist
+License: KAR-PH-2048
+
+====== REVA Care Pharmacy ======
+1. View all medicines
+2. Search medicine
+3. Create customer bill
+4. Low-stock report
+5. Pharmacist details
+6. Exit
+Enter choice: 1
+
+ID   Name               Category     Price      Stock Expiry
+---------------------------------------------------------------
+101  Paracetamol        TABLET       Rs.   25.50    50 12/2027
+102  Amoxicillin        CAPSULE      Rs.   80.00     8 06/2027
+103  Cough Syrup        SYRUP        Rs.  120.00    15 03/2027
+104  Antiseptic Cream   OINTMENT     Rs.   65.00     6 11/2026
+105  Vitamin D3         CAPSULE      Rs.  150.00    30 08/2028
+
+====== REVA Care Pharmacy ======
+1. View all medicines
+2. Search medicine
+3. Create customer bill
+4. Low-stock report
+5. Pharmacist details
+6. Exit
+Enter choice: 3
+Customer name: Jahnavi
+Phone number: 9000000000
+Medicine name (or 'done'): Paracetamol
+Quantity: 2
+Line amount: Rs. 51.00
+Add another medicine? (y/n): y
+Medicine name (or 'done'): Vitamin D3
+Quantity: 1
+Line amount: Rs. 150.00
+Add another medicine? (y/n): n
+Is customer a member? (y/n): y
+Payment method (cash/upi/card): upi
+Final amount: Rs. 189.95
+
+========== PHARMACY BILL ==========
+Bill No : 1001
+Customer: Jahnavi
+-----------------------------------
+Paracetamol        x2  Rs.   51.00
+Vitamin D3         x1  Rs.  150.00
+Subtotal : Rs.  201.00
+Discount : Rs.   20.10
+GST 5%   : Rs.    9.05
+TOTAL    : Rs.  189.95
+Payment  : UPI
+===================================
+
+Rounded amount for cash display: Rs. 189
+
+Enter choice: 4
+--- Low Stock Report (<= 10) ---
+102  Amoxicillin        CAPSULE      Rs.   80.00     8 06/2027
+104  Antiseptic Cream   OINTMENT     Rs.   65.00     6 11/2026
